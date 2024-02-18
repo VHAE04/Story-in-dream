@@ -101,3 +101,5 @@ các keyword :
 - cdn
 
 Nếu các bạn thích về chủ đề này hay thì mình sẽ làm típ hehe ;()
+
+Bài viết sẽ có nhiều lỗi sai và nhiều chi tiết thiếu sót bạn hãy góp ý bằng cách cmt phía dưới cảm ơn bạn.
