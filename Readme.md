@@ -99,6 +99,7 @@ các keyword :
 - shodan
 - File upload vulnerabilities
 - cdn
+- httponly cookie
 
 Nếu các bạn thích về chủ đề này hay thì mình sẽ làm típ hehe ;()
 
