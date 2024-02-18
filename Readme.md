@@ -59,7 +59,7 @@ window.location.href để thu thập url trang web đang truy cập
 ![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/2e8c8f00-d7dd-421e-afa4-058a4665a40c)
 
 
-Sau khi dữ liệu được trả về chúng tôi đã biết nguyên nhân từ url 172.50.24.21 là một ip private vậy chúng tôi đoán trang web tuyendung.congtyx.com sẽ nhận dữ liệu về một máy chủ và các nhân sự sẽ truy cập vào một webserver nội bộ qua mạng công ty hoặc vpn để duyệt hồ sơ các thành viên. Từ đó cũng lý giải video chúng thôi sử dụng cookie vào trang web tuyển dụng không được vì 2 trang web có chức năng xác thực khác nhau - Điều này thực sự thú vị vì nó sẽ làm tăng tính bảo mật của website và tránh để lộ thông tin ra bên ngoài môi trường internet cơ bản sơ đồ sẽ như sau.
+Sau khi dữ liệu được trả về chúng tôi đã biết nguyên nhân từ url 172.50.24.21 là một ip private vậy chúng tôi đoán trang web tuyendung.congtyx.com sẽ nhận dữ liệu về một máy chủ và các nhân sự sẽ truy cập vào một webserver nội bộ qua mạng công ty hoặc vpn để duyệt hồ sơ các thành viên. Từ đó cũng lý giải vi sao chúng thôi sử dụng cookie đã thu thập được vào trang web tuyển dụng không được vì 2 trang web có chức năng xác thực khác nhau - Điều này thực sự thú vị vì nó sẽ làm tăng tính bảo mật của website và tránh để lộ thông tin ra bên ngoài môi trường internet cơ bản sơ đồ sẽ như sau.
 
 ![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/fb863d78-e281-4454-ab57-44959f0b9512)
 
