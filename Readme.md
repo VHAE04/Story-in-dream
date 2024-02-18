@@ -1,33 +1,33 @@
-# Tôi đã chiếm quyền điều hành cả một hệ thống mạng của một công ty X như thế nào.
+# Tôi đã chiếm quyền điều hành cả một hệ thống mạng của một hệ thống như thế nào.
 
 ## Lưu ý mọi nội dung dưới đây chỉ là hư cấu !
 
 Bài viết sẽ đi xây dựng các lối tấn công thực tế các con đường khai thác APT.
+
 Các kỹ thuật lỗ hổng sẽ được in đậm để các bạn có thể research.
+
+Bài viết được hỗ trợ giàn ý bởi AI và các lỗ hổng realcase trong cuộc sống
+
 cre: VHAE và những giấc mơ ;D
 
 # Chương 1: Mở bài
 
-### Phần 1: Bi kịch bắt đầu.
-
-Chuyện bắt đầu cách đây 1 năm khi tôi là Vũ với công việc là phân tích mã độc. Bi kịch ập đến tôi ngay sau ngày sinh nhật tôi, bố tôi và mẹ tôi đều bị mất việc ở công ty X, công ty đó đã giải thích là do thu nhỏ quy mô kinh doanh nên phải cắt bớt nhân sự. Đêm đó tôi hơi buồn và ngồi research về công ty X và thấy công ty đó vẫn đang trong quá trình phát triển và quy mô cũng lớn nhưng lại chấm dứt hợp đồng với gia đình tôi, tôi dành ra nhiều ngày để nghiên cứu thì phát hiện ra sự thật là do bố mẹ tôi đã biết điều gì đó bí ẩn ở công ty và họ đã sa thải cả hai để giữ bí mật đó. Ngày đó tôi đã thực sự khó hiểu và bắt đầu đi tìm sự thật.
-
 ### Phần 2: Bắt tay hành động.
 
-Câu truyện bắt đầu khi tôi liên hệ lại với 2 người bạn ở trường cũ là Hoàng ( Chuyên gia bảo mật website ) và Anh ( Một blackhat ) chúng tôi bắt đầu cuộc tấn công với công ty X và đặt tên nhóm là XTAE.
+Câu truyện bắt đầu khi tôi liên hệ lại với 2 người bạn ở trường cũ là Hoàng ( Chuyên gia bảo mật website ) và Anh ( Một blackhat ) chúng tôi bắt đầu cuộc tấn công với hệ thống và đặt tên nhóm là XTAE.
 
 X - eXploit 
 T - Technology 
 A - Access 
 E - Ethically
 
-st1 : Chúng tôi đã bắt đầu tìm kiếm các thông tin về công ty X bao gồm nhân viên, quản lý, tổng giám đốc, hồ sơ tài chính và các báo cáo liên quan....
+st1 : Chúng tôi đã bắt đầu tìm kiếm các thông tin về hệ thống bao gồm nhân viên, quản lý, tổng giám đốc, hồ sơ tài chính và các báo cáo liên quan....
 
 st2 : Sau khi đã có thông tin base chúng tôi bắt đầu rà quét thu thập các địa chỉ ip port, web và subdomain tại nhiều nơi như Shodan...
 
 st3 : Chúng tôi phân công nhau tìm kiếm các lỗ hổng trên các thông tin thu thập được hầu hết chỉ là các lỗi dos và client.
 
-Đã 3 ngày trôi qua và webhook của Vũ đã trả về dữ liệu về lỗ hổng XSS của một trang web tuyển dụng của công ty X.
+Đã 3 ngày trôi qua và webhook của Vũ đã trả về dữ liệu về lỗ hổng XSS của một trang web tuyển dụng của hệ thống.
 
 ![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/044db157-83fc-4213-a7c2-a8d532b33fda)
 
