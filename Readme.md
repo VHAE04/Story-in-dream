@@ -59,7 +59,7 @@ window.location.href để thu thập url trang web đang truy cập
 ![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/2e8c8f00-d7dd-421e-afa4-058a4665a40c)
 
 
-Sau khi dữ liệu được trả về chúng tôi đã biết nguyên nhân từ url 172.50.24.21 là một ip private vậy chúng tôi đoán trang web tuyendung.congtyx.com sẽ nhận dữ liệu về một máy chủ và các nhân sự sẽ truy cập vào một webserver nội bộ qua mạng công ty hoặc vpn để duyệt hồ sơ các thành viên. Từ đó cũng lý giải vi sao chúng thôi sử dụng cookie đã thu thập được vào trang web tuyển dụng không được vì 2 trang web có chức năng xác thực khác nhau - Điều này thực sự thú vị vì nó sẽ làm tăng tính bảo mật của website và tránh để lộ thông tin ra bên ngoài môi trường internet cơ bản sơ đồ sẽ như sau.
+Sau khi dữ liệu được trả về chúng tôi đã biết nguyên nhân từ url 172.50.24.21 là một ip private vậy chúng tôi đoán trang web tuyendung.congtyx.com sẽ nhận dữ liệu về một máy chủ và các nhân sự sẽ truy cập vào một webserver nội bộ qua mạng hệ thống hoặc vpn để duyệt hồ sơ các thành viên. Từ đó cũng lý giải vi sao chúng thôi sử dụng cookie đã thu thập được vào trang web tuyển dụng không được vì 2 trang web có chức năng xác thực khác nhau - Điều này thực sự thú vị vì nó sẽ làm tăng tính bảo mật của website và tránh để lộ thông tin ra bên ngoài môi trường internet cơ bản sơ đồ sẽ như sau.
 
 ![image](https://github.com/VHAE04/Story-in-dream/assets/89138607/fb863d78-e281-4454-ab57-44959f0b9512)
 
@@ -76,7 +76,7 @@ Code của tôi không hoạt động ?
 Máy chủ cá nhân không cho phép tải các file khác ? 
 
 
-Trong nhiều ngày chúng tôi đã osint nhiều thông tin về công ty và biết rất nhiều người dùng Adobe Acrobat tôi liền liên hệ cho Anh để tìm hiểu thêm về các lỗ hổng zeroday về một phần mềm này với một dân ngầm như Anh đã cho tôi ngay POC mới nhất về `CVE-2023-26369` tôi tiến hành xây dựng mã khai thác theo cve mà Anh cung cấp cùng lúc đó Hoàng kết hợp lỗi `XSS và CSRF` để tự tiến hành tự động xác nhận kiểm duyệt hồ sơ của tôi lên cấp trên để có thể lây lan được nhiều ngừoi hơn.
+Trong nhiều ngày chúng tôi đã osint nhiều thông tin về hệ thống và biết rất nhiều người dùng Adobe Acrobat tôi liền liên hệ cho Anh để tìm hiểu thêm về các lỗ hổng zeroday về một phần mềm này với một dân ngầm như Anh đã cho tôi ngay POC mới nhất về `CVE-2023-26369` tôi tiến hành xây dựng mã khai thác theo cve mà Anh cung cấp cùng lúc đó Hoàng kết hợp lỗi `XSS và CSRF` để tự tiến hành tự động xác nhận kiểm duyệt hồ sơ của tôi lên cấp trên để có thể lây lan được nhiều ngừoi hơn.
 
 
 ### Phần 3: Tia sáng cuối con đường:
