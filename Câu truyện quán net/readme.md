@@ -39,3 +39,16 @@ Sau khi truy cập đường vào máy chủ tôi đã có thể có toàn quy�
 
 Quyết định cuối cùng. 
 Sau một thời gian khá là nghịch ngợm tôi quyết định báo cáo toàn bộ cho người quản lý quán. Dù giải thích gặp rất nhiều cho họ hiểu vể chuyên môn kỹ thuật nhưng dù sao họ cũng đánh giá được mức độ nghiêm trọng của nó. Và tôi đã được một tài khoản vjp của quán và chơi không giới hạn thời gian ^^. Cảm ơn quán.
+
+### Các bài học rút ra
+
+- Không nên đang nhập những thứ quan trọng ở các môi trường internet không rõ ràng. đặc biệt các nơi cung cấp internet công cộng. ( nếu bắt buộc hay sử dụng vpn và hãy cố gắng tự tạo máy ảo để truy cập hoặc vps )
+- Nên đổi mật khẩu thường xuyên định kỳ.
+- hãy update các bản vá lỗ hổng thường xuyên nhé.
+
+### Keywork: 
+- NODE
+- SMBGhost
+- AV, EDR
+- BOOT
+- TUNNEL
