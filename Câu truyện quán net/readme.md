@@ -4,7 +4,7 @@
 ### Chương 1 break the limit 
 
 hm xin chào lại là tôi XTAE đây  vẫn như thường ngày tôi vào quán net để nghiên cứu vài tài liệu, tất nhiên là tôi không chơi game nhưng giá thành ở đây khá là đắt vì nó là nét mà, luôn được trang bị những con card chiến binh để các game thủ có thể gank những trận game su cà na mặc dù tôi chả bao giờ dùng đến card. Vì thế tôi muốn tìm cách khác giảm giá thành học tập của mình. Quay lại ngày hồi còn ở làng, các quán net của chỗ tôi khá cổ, tôi có thể dùng usb để boot hệ điều hành ưu thích của mình lên mà không bị tính phí enjoy. Nhưng các hệ thống máy hiện nay thường chặn người dùng boot HDH lên.
-![[https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Câu%20truyện%20quán%20net/Pasted%20image%Pasted image 20250316205012.png]]
+![[https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Câu%20truyện%20quán%20net/Pasted%20image%Pasted%20image%2020250316205012.png]]
  Lượn lờ trên internet tôi biết được có những cách như là đóng băng hệ thống tính tiền của hệ thống quản lý để tài khoản của tôi không bị trừ hao thời gian dùng nhưng nó chỉ hoạt động với các hệ thống cũ, với các hệ thống quản lý mới các máy chủ sẽ kiểm tra các tiến trình ứng dụng quản lý nếu các tiến trình không hoạt động theo thời gian thực, máy chủ sẽ cho client tự động reset lại máy.
 ![[Pasted image 20250316204442.png]]
 Với một một tư duy nguyên mẫu ta biết hệ thống quản lý sẽ gửi lệnh reset đến máy người dùng qua đường truyền mạng. Vậy làm sao để máy mình không bị reset, bạn đã đoán đúng ta chỉ tắt toàn bộ hệ thống quản lý + tắt đường truyền mạng vậy là ta có thể dùng máy tính một cách free.
