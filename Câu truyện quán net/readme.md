@@ -33,8 +33,8 @@ Node 3, Node 4 tương tự
 # Chương 3 Original path
 
 Từ các hệ thống node cũ tôi tiên hành đào sâu vào hệ thống mạng tôi phát hiện ra các dải mạng của hệ thống server, hệ thống cân bằng tải,...
-Tôi nhận ra server còn sử dụng một hdh còn cũ hơn cả các máy tính quản lý, từ đó lý dải tại sao các node của tôi không thể rà soát được đến nó.
-Sau khi truy cập đường vào máy chủ tôi đã có thể có toàn quyền quản trị hệ thống. Thêm sửa xoá tài khoản người dùng tăng thời gian chơi bất kỳ, quản lý boot từ đó tôi có thể đính kèm mã của tôi trực tiếp vào boot của hệ thống.
+Tôi nhận ra server còn sử dụng một hdh còn cũ hơn cả các máy tính node, từ đó lý dải tại sao các node của tôi không thể rà soát và truyền mã khai thác được đến nó.
+Sau khi truy cập đường vào máy chủ bằng các lỗ hổng khác tôi đã có thể có toàn quyền quản trị hệ thống. Thêm sửa xoá tài khoản người dùng tăng thời gian chơi bất kỳ, quản lý boot từ đó tôi có thể đính kèm mã của tôi trực tiếp vào boot của hệ thống.
 
 ![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Câu%20truyện%20quán%20net/Pasted%20image%2020250316215447.png)
 
