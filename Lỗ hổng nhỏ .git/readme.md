@@ -1,3 +1,6 @@
+# Lưu ý tất cả nội dưới đây chỉ là ảo tưởng hoá chỉ có mục đích học tập
+
+
 # 🎯 Xác Suất Trong và AI trong Exploit: Từ Một lỗ hổng nhỏ `.git` đến 7 RCE.
 
 ## ☕ Một lỗ hổng nhỏ `.git`
