@@ -8,7 +8,7 @@ Tôi vốn làm bảo mật  – kiểu check lỗ hổng định kỳ cho mấy
 
 Boom – **lộ toàn bộ**. Source code, cấu hình, đường dẫn production.
 
-![[Pasted image 20250424233340.png]]
+![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424233340.png)
 
 Tôi nghĩ bụng:
 
@@ -28,7 +28,7 @@ Khi quay lại, terminal báo:
 
 > **132 domain dính `.git`**
 
-![[Pasted image 20250424235132.png]]
+![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424235132.png)
 
 Thế là tôi bật tool git-dumper, bắt đầu dump source. Và như đúng quy trình – tôi đi úp bát mì tôm.
 
@@ -37,7 +37,7 @@ Thế là tôi bật tool git-dumper, bắt đầu dump source. Và như đúng 
 Khi quay lại sau bữa tối gọn nhẹ:
 
 > **77 site đã dump được full source code**
-![[Pasted image 20250424234836.png]]
+![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424234836.png)
 Có site dump ra cả cấu hình production, database, SMTP – nhưng không phải cái nào cũng khai thác được vì không có lối vào cho các config đấy.
 
 ## 🤖 AI thủ công – tự build, tự chạy
@@ -58,12 +58,12 @@ Về tới nhà, tôi thấy terminal báo kết quả:
 
 - Gần **10 web có chức năng upload không xác thực**
     
-![[Pasted image 20250424234424.png]]
+![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424234424.png)
 Trong đó, **7 site tôi đã thử khai thác và có thể RCE**
 
 
 > **Shell nổ. Lệnh thực thi.**
-![[Pasted image 20250424234548.png]]
+![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424234548.png)
 
 ## 📊 Kết luận xác suất của đời
 
