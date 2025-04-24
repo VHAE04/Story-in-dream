@@ -84,6 +84,8 @@ Xác suất nhỏ? Ừ. Nhưng với **scale đủ lớn**, nhỏ cũng thành t
 - .git/HEAD ( is vuln web )
 - xác xuất thống kê
 - scale
+- file upload inject
+- AI sẽ là bạn nếu ta biết tận dụng
 
 > **Tấn công không cần phải 0day.  
 > Chỉ cần bạn chịu để AI làm phần chán nhất.**
