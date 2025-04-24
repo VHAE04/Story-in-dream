@@ -9,9 +9,20 @@ Tôi vốn làm bảo mật  – kiểu check lỗ hổng định kỳ cho mấy
 
 `/.git 
 
+
 Boom – **lộ toàn bộ**. Source code, cấu hình, đường dẫn production.
 
 ![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424233340.png)
+
+Lỗ hổng .git/HEAD là một trong những lỗi bảo mật phổ biến trên các website sử dụng Git mà không cấu hình bảo mật đúng, và có thể dẫn đến rò rỉ toàn bộ mã nguồn của dự án. Đây không phải là "lỗi của Git", mà là lỗi do cấu hình server không đúng.
+
+Nếu thư mục .git bị để lộ trên server (tức là người truy cập có thể vào đường dẫn như: http://example.com/.git/HEAD), thì:
+
+Hacker có thể biết repo đang dùng nhánh nào.
+
+Tệ hơn: Hacker có thể lần theo .git/ để tải về toàn bộ lịch sử commit, source code, cấu hình server, các file .env, mật khẩu, API key, database config... 🤯
+
+
 
 Tôi nghĩ bụng:
 
