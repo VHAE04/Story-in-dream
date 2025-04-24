@@ -23,8 +23,6 @@ Thế là tôi bật terminal, lấy list domain cũ, thêm vài tool crawling, 
 
 Tôi viết script nhỏ: chỉ cần gửi request kiểm tra tồn tại `.git/HEAD` ( hoặc bạn có thể dụng nuclei )
 
-`curl -sL --max-time 5 "$url/.git/HEAD"`
-
 Chạy script xong, tôi đi làm cốc cà phê. 
 
 Khi quay lại, terminal báo:
