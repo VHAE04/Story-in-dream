@@ -81,7 +81,7 @@ Trong đó, **7 site tôi đã thử khai thác và có thể RCE**
 
 ![image](https://raw.githubusercontent.com/VHAE04/Story-in-dream/refs/heads/main/Lỗ%20hổng%20nhỏ%20.git/Pasted%20image%2020250424234548.png)
 
-## 📊 Kết luận xác suất của đời
+## 📊 Kết luận xác suất 
 
 Tôi scan 330K domain → 132 tồn tại flie `.git/HEAD` → 77 dump full source → 10 web suspect → 7 RCE.
 
